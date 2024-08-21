@@ -1,0 +1,62 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment and dependency folders
+venv/
+env/
+*.env
+*.venv
+
+.Python
+
+# Ignore log files and database files
+*.log
+*.sql
+*.sqlite
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore compiled code and package files
+*.out
+*.class
+*.jar
+*.dll
+*.exe
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.node
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+
+# Ignore node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore MacOS-specific metadata files
+*.DS_Store
+.AppleDouble
+.LSOverride
